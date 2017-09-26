@@ -1,0 +1,136 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 0}, {540, 540}}",
+        "class" : "View",
+        "attributes" : {
+          "frame" : "{{220, 220}, {100, 100}}",
+          "background_color" : "RGBA(0.202830,0.202830,0.202830,1.000000)",
+          "class" : "View",
+          "name" : "view1",
+          "uuid" : "9A01E441-DC81-4A2A-9A3C-D625E3FA37FE"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{154, 166}, {232, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "diameterInput",
+          "placeholder" : "diameter of pizza in inches",
+          "frame" : "{{170, 254}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "F8933BFF-5C45-41C2-9C3E-615469059462",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{230, 206}, {80, 55}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculateCost",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "1264036A-7679-4B56-B1D2-D79C9C1D1A6D",
+          "class" : "Button",
+          "name" : "calculateButton",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{120, 277}, {300, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "costOutput",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "36482D13-1C55-46A4-B114-C37A054DC522",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "cost: $0.00",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{185, 54}, {170, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "titleText",
+          "text_color" : "RGBA(0.997642,0.997642,0.997642,1.000000)",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "32703376-1187-405E-AA81-3A1124B94296",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Pizza Price Calculator",
+          "font_size" : 18,
+          "font_name" : "AppleSDGothicNeo-Thin"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{396, 23}, {100, 100}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{220, 220}, {100, 100}}",
+          "image_name" : "iob:pizza_256",
+          "class" : "ImageView",
+          "name" : "imageview1",
+          "uuid" : "EE54E00C-7943-4F4A-B581-07BE459F2AF1"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{46, 23}, {100, 100}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{220, 220}, {100, 100}}",
+          "image_name" : "iob:pizza_256",
+          "class" : "ImageView",
+          "name" : "imageview2",
+          "uuid" : "C603EA49-BA10-4232-A10E-580C454E28E0"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {540, 540}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
