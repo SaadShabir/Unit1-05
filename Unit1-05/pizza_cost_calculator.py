@@ -1,3 +1,7 @@
+# Created by: Saad Shbabir	
+# Created on: Sept 27
+# Created for: ICS3U
+# This program displays the price of a pizza once given its diameter
 import ui
 
 def calculateCost(sender):
